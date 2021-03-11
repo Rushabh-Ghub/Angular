@@ -23,6 +23,7 @@
     "contributors:generate": "all-contributors generate && node .all-contributors-html.js",
     "contributors:check": "all-contributors check",
 	"sonar-scanner": "C:/sonarqube-8.6.1.40680/bin/windows-x86-64/sonar-scanner"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",
